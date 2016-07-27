@@ -1,5 +1,42 @@
 django>=1.8,<1.9
+
+django-cms>=3.3
+django-treebeard>=2.0
+
+#openshift new gen django app dependencies
 django-debug-toolbar==1.4
 gunicorn==19.4.5
 psycopg2==2.6.1
 whitenoise==3.0
+
+#Django cms dependencies
+-e git+https://github.com/divio/djangocms-column.git#egg=djangocms_column
+-e git+https://github.com/divio/djangocms-googlemap.git#egg=djangocms_googlemap
+-e git+https://github.com/divio/djangocms-inherit.git#egg=djangocms_inherit
+-e git+https://github.com/divio/djangocms-link.git#egg=djangocms_link
+-e git+https://github.com/divio/djangocms-style.git#egg=djangocms_style
+-e git+git://github.com/arteria/cmsplugin-contact-plus.git#egg=cmsplugin_contact_plus
+
+easy_thumbnails
+django-appconf>=1.0.0
+cmsplugin-filer>=0.10.2
+djangocms-admin-style>=1.0.6
+djangocms-text-ckeditor>=2.8.1
+pytz
+django-reversion>=1.8.7,<1.9
+django-mptt<0.9
+django-classy-tags>=0.3.4.1
+html5lib==0.9999999
+Pillow>=2.3
+django-sekizai>=0.7
+six
+dj-database-url>=0.4.0
+dj-email-url>=0.0.4
+djangocms-page-meta>=0.5.0
+
+#Extras
+aldryn-bootstrap3
+django-analytical
+cmsplugin-twitter>=1.1.0
+django-allauth
+sanitizer
