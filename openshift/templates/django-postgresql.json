@@ -105,12 +105,6 @@
           },
           {
             "type": "ConfigChange"
-          },
-          {
-            "type": "GitHub",
-            "github": {
-              "secret": "${GITHUB_WEBHOOK_SECRET}"
-            }
           }
         ],
         "postCommit": {
