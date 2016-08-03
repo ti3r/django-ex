@@ -19,7 +19,7 @@ whitenoise==3.0
 
 easy_thumbnails
 django-appconf>=1.0.0
-cmsplugin-filer>=0.10.2
+cmsplugin-filer==1.1.2
 djangocms-admin-style>=1.0.6
 djangocms-text-ckeditor>=2.8.1
 pytz
